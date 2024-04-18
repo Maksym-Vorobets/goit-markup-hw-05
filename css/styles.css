@@ -562,6 +562,7 @@ img {
 
 .footer-subscribe-icon {
   margin-left: 16px;
+  fill: #ffffff;
 }
 
 .backdrop {
@@ -625,12 +626,12 @@ img {
   border: none;
 }
 
-.footer-subscribe-icon {
+.modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-open-btn:hover .footer-subscribe-icon,
-.modal-open-btn:focus .footer-subscribe-icon {
+.modal-open-btn:hover .modal-close-icon,
+.modal-open-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
 
