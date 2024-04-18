@@ -730,11 +730,8 @@ img {
 }
 
 .modal-checkbox-label span {
-  width: 20px;
-  height: 20px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -756,7 +753,7 @@ img {
 }
 
 .modal-label-link {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
