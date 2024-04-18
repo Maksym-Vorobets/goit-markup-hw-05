@@ -747,6 +747,15 @@ img {
   fill: #f4f4fd;
 }
 
+.modal-checkbox-span {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal-label-link {
   line-height: 1.33333;
   text-decoration: underline;
@@ -774,4 +783,5 @@ img {
   margin-top: 24px;
   margin-left: 96px;
   margin-right: 96px;
+  cursor: pointer;
 }
